@@ -1,0 +1,12 @@
+Instruções de uso do programa de Voz do Tradutor do Google
+
+1- Abra o programa "Voz do tradutor do Google.py" com o interpretador do Python;
+OBS: Caso você não tenha o IDLE (interpretador do Python), baixe-o no site https://www.python.org
+
+2- Abra o processador de comandos (CMD) e instale a biblioteca gTTS (Google Text-to-Speech) com o seguinte comando:
+
+pip install gtts
+
+3- Digite o que você deseja ouvir e aperte ENTER.
+
+OBS: O conteúdo que você digitou será enviado ao site do Google, que retornará o áudio, que por sua vez será salvo no mesmo local onde o interpretador do Python foi aberto com o nome de "áudio.mp3", então será tocado pelo reprodutor de áudio padrão.
